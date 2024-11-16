@@ -14,7 +14,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 _YES_ 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
 
-_PART_ 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
+_YES_ 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
 
 _YES_ 1 pt: The `Engine` class has a functional constructor
 
@@ -22,7 +22,7 @@ _YES_ 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly 
 
 ### Level 2 (3 pts)
 
-_PART_ 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
+_YES_ 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
 
 _YES_ 1 pt: The `Car` class has functional `addPassenger(...)` and `removePassenger(...)` methods
 
@@ -44,9 +44,9 @@ _YES_ 4 pts: Programs compile without errors or warnings
 
 _YES_ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_PART_ 2 pt: Complies with style guidelines (missing items 1 pt each):
+_YES_ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _PART_ Classes & class members all have Javadoc header comments
+      _YES_ Classes & class members all have Javadoc header comments
 
       _YES_ Clear and consistent indentation of bracketed sections
 

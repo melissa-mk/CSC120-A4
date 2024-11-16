@@ -1,20 +1,56 @@
 import java.util.ArrayList;
 
+/**
+ * @author mkabalisa
+ * Car program to handle passengers of individual train cars
+ */
 public class Car {
-    ArrayList<Passenger> passengers = new ArrayList<>();
-    int carCapacity;
+    private ArrayList<Passenger> passengers = new ArrayList<>();
+    private int carCapacity;
 
+    /**
+     * constructor
+     */
     public Car() {}
+
+    /**
+     * constructor
+     * @param passengers
+     * @param carCapacity
+     */
     public Car(ArrayList<Passenger> passengers, int carCapacity) {
         this.passengers = passengers;
         this.carCapacity = carCapacity;
     }
+
+    /**
+     *
+     * @return carCapacity the maximum number of passengers the car can hold
+     */
     public int getCarCapacity() {
         return carCapacity;
     }
+
+    /**
+     *
+     * @return information about passengers who are in the car
+     */
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
+    /**
+     *
+     * @return the number of free seats; the car capacity minus the number of current passengers
+     */
     public int seatsRemaining() {
         return getCarCapacity() - passengers.size();
     }
+
+    /**
+     *
+     * @param passengers
+     * @return true if the car has any space for a new passenger, false otherwise
+     */
     public boolean carSpaceAvailable(ArrayList<Passenger> passengers) {
         if(carCapacity==passengers.size()){
             System.out.println("Car is full!");
